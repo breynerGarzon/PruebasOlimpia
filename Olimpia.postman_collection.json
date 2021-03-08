@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "3dd52f62-adcf-4561-a92b-844fcb1a5958",
+		"name": "Olimpia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/Invoice/Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    [\r\n        {\"Id\": 1, \"Nit\":\"1015\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":47000, \"PorcentajeIVA\":0.2},\r\n        {\"Id\": 2, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 1, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 2, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 2, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":43000, \"PorcentajeIVA\":1}\r\n    ]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/Invoice/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"Invoice",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/Invoice/Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    [\r\n        {\"Id\": 1, \"Nit\":\"1015\", \"Descripcion\":\"Prueba 1\", \"ValorTotal\":47000, \"PorcentajeIVA\":0.2},\r\n        {\"Id\": 2, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 2\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 3, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 3\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 4, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 4\", \"ValorTotal\":43000, \"PorcentajeIVA\":1},\r\n        {\"Id\": 5, \"Nit\":\"1030\", \"Descripcion\":\"Prueba 5\", \"ValorTotal\":43000, \"PorcentajeIVA\":1}\r\n    ]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/Invoice/Create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"Invoice",
+						"Create"
+					]
+				},
+				"description": "Pruebas con datos exitosos"
+			},
+			"response": []
+		}
+	]
+}
