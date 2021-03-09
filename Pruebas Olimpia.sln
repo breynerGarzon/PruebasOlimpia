@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olimpia.Model", "Olimpia.Mo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olimpia.Business", "Olimpia.Business\Olimpia.Business.csproj", "{E7D233F3-850E-4E9F-9CF7-A87B64AD539F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olimpia.Huellas2", "Olimpia.Huellas2\Olimpia.Huellas2.csproj", "{29734E3B-CB56-4754-A04C-56E3A706D2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olimpia.Huellas2", "Olimpia.Huellas2\Olimpia.Huellas2.csproj", "{29734E3B-CB56-4754-A04C-56E3A706D2D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olimpia.Intersección", "Olimpia.Intersección\Olimpia.Intersección.csproj", "{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,18 @@ Global
 		{29734E3B-CB56-4754-A04C-56E3A706D2D7}.Release|x64.Build.0 = Release|Any CPU
 		{29734E3B-CB56-4754-A04C-56E3A706D2D7}.Release|x86.ActiveCfg = Release|Any CPU
 		{29734E3B-CB56-4754-A04C-56E3A706D2D7}.Release|x86.Build.0 = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Debug|x86.Build.0 = Debug|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|x64.ActiveCfg = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|x64.Build.0 = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|x86.ActiveCfg = Release|Any CPU
+		{B4A916DD-BA4C-49EA-A4AF-0F76F64CDF8D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
